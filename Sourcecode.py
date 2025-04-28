@@ -2,7 +2,7 @@ import random
 import pymysql
 import matplotlib.pyplot as plt
 import statistics as stat
-connection = pymysql.connect(host="localhost",database="mep",cursorclass=pymysql.cursors.DictCursor)
+connection = pymysql.connect(host="localhost",user="root",password="pande123@",database="mep",cursorclass=pymysql.cursors.DictCursor)
 mycur=connection.cursor()
 
 
